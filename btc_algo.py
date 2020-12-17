@@ -44,7 +44,8 @@ class Account():
     """ Authenticates, checks balances, places orders. """
     
     def __init__(self):
-        self.auth_client = AuthenticatedClient(api_key, secret, passphrase)
+        self.auth_client = AuthenticatedClient(a1dbbf30f0624f65a72cf2657bd4ceb9, 
+w2EdgCHeTwUcwM/NqEbPpqFdO6iW2lCSfHfUnk/KcSgiLp1ODHpEof7RB7OiX+Z7dNJNWfVpLLhF2aY6HBZ7ng==, 11gsyi4rerlp)
         self.size = 0.001
         
     def is_balanceUSD(self):
